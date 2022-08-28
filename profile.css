@@ -15,6 +15,27 @@ body {
     color: #262626;
     padding-bottom: 3rem;
 }
+#company{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    margin-right: 50rem;
+}
+#logot{
+    margin-left: 20em;
+}
+#block{
+    margin-top:50px;
+}
+hr{
+    border: 1px solid black;
+    margin-top: 90px;
+}
+#logdin{
+    position: absolute;
+    top: 95%;
+    left: 80%;
+}
 #hea{
     margin-top: 10px;
     height: 50px;
@@ -242,14 +263,14 @@ nav {
     background: white  ;
     list-style:none;
     padding:0 20px;
-    margin: 0;
-    height: 60px;
+    margin:0;
+    height: 79px;
     z-index: 4
   
   }
   
-  
   nav ul li {
+    /* margin-left: 50px; */
     display: inline-block;
   }
   

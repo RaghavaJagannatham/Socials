@@ -10,25 +10,36 @@
 <body>
 <!-- partial:index.partial.html -->
 <header>
-	<div class="container" id="hea">
+
+	<div class="container">
         
-        <h4 id="logged">Logged in as  <script>document.write(localStorage.getItem('name'));</script></h4>
+        <img id="company" src="./Company.jpeg" />
+        <h4 id="logdin">Logged in as<script>document.write(localStorage.getItem('name'));</script></h4>
       </div>
 
-	<nav>
+
+
+
+
+
+
+      
+
+<!-- start header -->
+<nav>
   
-		<ul> 
-	  <div id="menu" class="col-md-10">
+	<ul> 
+  <div id="menu" class="col-md-10">
+    
+		<!-- <li id="logot"><a href="./login.html"><button id="butto" onclick="Logout();" style="float: right;">Logout</button></a></li> -->
+        <li id="hom"><a href="./Home.html">Home</a></li>
+        <li id="prof"><a href="./profile.html">Profile</a></li>
+    	
+
 		
-			<li><a href="./login.html">Login page</a></li>
-			<li><a href="./Home.html">Home</a></li>
-			<li><a href="./profile.html">Profile</a></li>
-			
-	
-			
-	  </div>
-		</ul>
-	</nav>
+  </div>
+	</ul>
+</nav>
 
 	<div class="container">
 
